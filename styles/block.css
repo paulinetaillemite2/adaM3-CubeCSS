@@ -1,0 +1,153 @@
+/* CTA Block - Base styles */
+.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem 1.5rem; /* ~10px 24px */
+  font-size: var(--text-base);
+  font-weight: var(--fw-semi-bold);
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: border-radius 0.2s ease;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Ensure links behave like buttons */
+a.cta {
+  text-decoration: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Primary Black */
+.cta--primary-black {
+  background-color: var(--color-primary-black);
+  color: var(--color-primary-white);
+  border-radius: var(--radius-sm);
+}
+
+.cta--primary-black:hover {
+  border-radius: var(--radius-md);
+}
+
+/* Primary Color 1 (Lemon) */
+.cta--primary-color-1 {
+  background-color: var(--color-lemon);
+  color: var(--color-primary-black);
+  border-radius: var(--radius-sm);
+}
+
+.cta--primary-color-1:hover {
+  border-radius: var(--radius-md);
+}
+
+/* Primary White */
+.cta--primary-white {
+  background-color: var(--color-snow);
+  color: var(--color-onyx);
+  border: 0.5px solid var(--color-primary-black);
+  border-radius: var(--radius-sm);
+}
+
+.cta--primary-white:hover {
+  border-radius: var(--radius-md);
+}
+
+/* Primary Color 2 (Periwinkle) */
+.cta--primary-color-2 {
+  background-color: var(--color-periwinkle);
+  color: var(--color-onyx);
+  border-radius: var(--radius-sm);
+}
+
+.cta--primary-color-2:hover {
+  border-radius: var(--radius-md);
+}
+
+/* Product Card CTA */
+.cta--product-card {
+  background-color: var(--color-primary-black);
+  color: var(--color-primary-white);
+  border-radius: var(--radius-sm);
+  width: 100%;
+}
+
+/* Product Card Block */
+.product-card {
+  width: 312px;
+  height: 495px;
+  background-color: var(--color-primary-white);
+  border: 1px solid var(--color-periwinkle);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-sm);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-shrink: 0;
+  transition: border-radius 0.3s ease;
+}
+
+.product-card:hover {
+  border-radius: var(--radius-lg);
+}
+
+/* Product Card Variants */
+.product-card--variant-2 {
+  border-color: var(--color-lemon);
+}
+
+.product-card--variant-3 {
+  border-color: var(--color-primary-black);
+}
+
+/* Product Card Image */
+.product-card > img:first-of-type {
+  width: 100%;
+  aspect-ratio: 275 / 268;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Product Card Title */
+.product-card h3 {
+  font-size: var(--text-m);
+  font-weight: var(--fw-black);
+  color: var(--color-primary-black);
+  margin: 0 0 var(--spacing-xs) 0;
+  line-height: 1;
+}
+
+/* Product Card Price */
+.product-card > p {
+  font-size: var(--text-base);
+  font-weight: var(--fw-light);
+  color: var(--color-price);
+  margin: 0 0 var(--spacing-sm) 0;
+  line-height: 1;
+}
+
+/* Product Card Thumbnails Container */
+.product-card__thumbnails {
+  display: flex;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Product Card Thumbnails */
+.product-card__thumbnails img {
+  width: 60px;
+  height: 60px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+/* Product Card CTA Button */
+.product-card .cta {
+  margin-top: auto;
+}
+

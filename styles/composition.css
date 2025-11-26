@@ -1,0 +1,9 @@
+/* Product Cards Grid */
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  justify-content: center;
+  padding: var(--spacing-md) 0;
+}
+
