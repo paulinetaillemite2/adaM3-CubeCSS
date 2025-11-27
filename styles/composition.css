@@ -1,11 +1,16 @@
 /* Hero Layout */
 .hero {
+  container-type: inline-size;
+  container-name: hero;
   display: flex;
   align-items: center;
   gap: var(--spacing-lg);
   padding: var(--spacing-lg);
   background-color: var(--color-periwinkle);
   border-radius: var(--radius-md);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
 }
 
 /* Hero Exception - Left Asset */
@@ -22,6 +27,13 @@
 .hero--inverted-left-asset {
   flex-direction: row-reverse;
   background-color: var(--color-lemon);
+}
+
+/* Hero Container Queries - Responsive */
+@container hero (width < 600px) {
+  .hero__image {
+    display: none;
+  }
 }
 
 /* Product Cards Carousel */
