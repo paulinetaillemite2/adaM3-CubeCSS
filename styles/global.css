@@ -2,8 +2,8 @@
 body {
   font-family: var(--font-family-primary);
   background-color: var(--color-snow);
-  margin-left: var(--spacing-xl);
-  margin-right: var(--spacing-xl);
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 /* Headings */
