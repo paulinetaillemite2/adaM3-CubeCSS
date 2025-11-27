@@ -1,3 +1,30 @@
+/* Hero Layout */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background-color: var(--color-periwinkle);
+  border-radius: var(--radius-md);
+  margin: var(--spacing-md) 0;
+}
+
+/* Hero Exception - Left Asset */
+.hero--left-asset {
+  flex-direction: row-reverse;
+}
+
+/* Hero Exception - Inverted (Lemon background) */
+.hero--inverted {
+  background-color: var(--color-lemon);
+}
+
+/* Hero Exception - Inverted Left Asset */
+.hero--inverted-left-asset {
+  flex-direction: row-reverse;
+  background-color: var(--color-lemon);
+}
+
 /* Product Cards Grid */
 .product-cards {
   display: flex;
