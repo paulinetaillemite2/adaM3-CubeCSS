@@ -218,3 +218,28 @@
   display: none;
 }
 
+/* Footer Layout */
+.footer {
+  padding: var(--spacing-xl) var(--spacing-md);
+  background-color: var(--color-snow);
+}
+
+.footer__content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.footer__separator {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: var(--spacing-lg) 0;
+}
+
+.footer__copyright {
+  text-align: center;
+  padding-top: var(--spacing-md);
+}
+

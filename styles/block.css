@@ -268,3 +268,110 @@ a.cta {
   border-radius: var(--radius-md);
 }
 
+/* Footer Block */
+.footer__brand {
+  margin-bottom: var(--spacing-sm);
+}
+
+.footer__logo {
+  font-size: 1.625rem; /* 26px */
+  font-weight: var(--fw-extra-bold);
+  color: var(--color-periwinkle);
+  text-decoration: none;
+  line-height: 0;
+}
+
+.footer__tagline {
+  font-size: var(--text-base);
+  font-weight: var(--fw-light);
+  color: var(--color-price);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.footer__title {
+  font-size: var(--text-base);
+  font-weight: var(--fw-semi-bold);
+  color: var(--color-primary-black);
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+.footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.footer__links a {
+  font-size: var(--text-base);
+  font-weight: var(--fw-light);
+  color: var(--color-price);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer__links a:hover {
+  color: var(--color-periwinkle);
+}
+
+.footer__description {
+  font-size: var(--text-base);
+  font-weight: var(--fw-light);
+  color: var(--color-price);
+  margin: 0 0 var(--spacing-sm) 0;
+  line-height: 1.5;
+}
+
+.footer__newsletter {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.footer__input {
+  flex: 1;
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: var(--text-base);
+  font-family: var(--font-family-primary);
+  border: 1px solid #e0e0e0;
+  border-radius: var(--radius-sm);
+  background-color: var(--color-primary-white);
+  color: var(--color-primary-black);
+}
+
+.footer__input:focus {
+  outline: none;
+  border-color: var(--color-periwinkle);
+}
+
+.footer__input::placeholder {
+  color: var(--color-price);
+}
+
+.footer__button {
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: var(--text-base);
+  font-weight: var(--fw-semi-bold);
+  font-family: var(--font-family-primary);
+  background-color: var(--color-lemon);
+  color: var(--color-primary-black);
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: border-radius 0.2s ease;
+  white-space: nowrap;
+}
+
+.footer__button:hover {
+  border-radius: var(--radius-md);
+}
+
+.footer__copyright p {
+  font-size: var(--text-s);
+  font-weight: var(--fw-light);
+  color: var(--color-price);
+  margin: 0;
+}
+
