@@ -6,7 +6,6 @@
   padding: var(--spacing-lg);
   background-color: var(--color-periwinkle);
   border-radius: var(--radius-md);
-  margin: var(--spacing-md) 0;
 }
 
 /* Hero Exception - Left Asset */

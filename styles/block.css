@@ -189,6 +189,7 @@ a.cta {
 .hero__image img {
   width: 100%;
   height: auto;
+  max-height: 300px;
   aspect-ratio: 4096 / 2720;
   object-fit: cover;
   border-radius: var(--radius-md);
