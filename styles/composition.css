@@ -29,10 +29,33 @@
   background-color: var(--color-lemon);
 }
 
-/* Hero Container Queries - Responsive */
+/* Hero Container Queries - Tried some things here */
 @container hero (width < 600px) {
+  .hero {
+    align-items: center;
+  }
+
   .hero__image {
     display: none;
+  }
+
+  .hero__content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__title {
+    align-items: center;
+  }
+
+  .hero__description {
+    text-align: center;
+  }
+
+  .hero__content .cta {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
