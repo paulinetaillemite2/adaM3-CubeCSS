@@ -23,6 +23,8 @@ h1 {
 h2 {
   font-size: var(--text-xl);
   font-weight: var(--fw-semi-bold);
+  margin-bottom: var(--spacing-xs);
+  margin-top: var(--spacing-lg);
 }
 
 h3 {
@@ -33,6 +35,9 @@ h3 {
 /* Text styles */
 p {
   font-size: var(--text-base);
+  font-weight: var(--fw-light);
+  margin-bottom: var(--spacing-xs);
+  margin-top: var(--spacing-xs);
 }
 
 .body-large {
